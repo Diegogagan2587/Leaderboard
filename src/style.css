@@ -1,45 +1,45 @@
 
 ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 body {
-    padding-left: 5vw;
-    padding-right: 5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .section-score {
-    display: flex;
+  display: flex;
 }
 
 .recent-scores {
-    width: 50%;
-    padding-left: 2%;
-    padding-right: 2%;
+  width: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .recent-scores-head {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10%;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10%;
+  width: 100%;
 }
 
 .recent-scores ul {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .add-score-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
 }
 
 .add-score-container form {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
