@@ -1,11 +1,45 @@
-* {
-    border: 1px solid green;
+
+ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-h1 {
-    color:red;
+body {
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
-.hello {
-    background-color: blueviolet;
+.section-score {
+    display: flex;
+}
+
+.recent-scores {
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.recent-scores-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10%;
+    width: 100%;
+}
+
+.recent-scores ul {
+    border: 2px solid black;
+}
+
+.add-score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.add-score-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
