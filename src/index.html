@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="main.js" defer></script>
-    <title>WebPack and Linternst Template</title>
+    <title>Leaderboard</title>
 </head>
+
 <body>
-    <h1>
-        This is a template for webpack and Linterns.
-    </h1>
+    <header>
+        <h1>
+            Leaderboard
+        </h1>
+    </header>
+    <section id="score-section" class="section-score">
+        <div id="recent-scores-container" class="recent-scores">
+            <div class="recent-scores-head"><h2>Recent Scores</h2><button>Refresh</button></div>
+            <ul id="scores-list">
+                <li>alsdjfasdfjasdf</li>
+                <li>alsdjfasdfjasdf</li>
+                <li>alsdjfasdfjasdf</li>
+                <li>alsdjfasdfjasdf</li>
+            </ul>
+        </div>
+        <div id="add-your-score-container" class="add-score-container">
+            <h2>Add your score</h2>
+            <form action="#">
+                <input type="text" name="your-name" id="your-name" placeholder="Your name">
+                <input type="text" name="your-score" id="your-score" placeholder="Your score">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
 </body>
+
 </html>
