@@ -5,10 +5,9 @@ const urlAPI = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/g
 
 const getScores = async () => {
   const gameScores = await fetch(urlAPI)
-    .then((response) => response.json())
-    .then((json) => json.result)
-    .then((result) => display(result));
-
+  const response = await gameScores.json();
+  const result = await response.result;
+  display(result);
   return gameScores;
 };
 
