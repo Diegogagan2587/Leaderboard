@@ -1,7 +1,7 @@
 import './style.css';
 import display from './modules/display.js';
 import submitScore from './modules/submit_score.js';
-
+import getScores from './modules/get_scores.js';
 
 const scoresData = [
   { name: 'name', score: 100 },
@@ -15,6 +15,8 @@ const btnRefresh = document.querySelector('#button-refresh');
 const btnSubmit = document.querySelector('#button-submit');
 
 btnSubmit.addEventListener('click',submitScore);
+btnRefresh.addEventListener('click',getScores);
+
 
 display(scoresData);
 
