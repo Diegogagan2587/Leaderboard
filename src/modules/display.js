@@ -1,11 +1,12 @@
 
 const display = (scoreList) => {
+  console.log('runing dislpay', scoreList);
     const scoresContainer = document.getElementById('scores-list');
     scoresContainer.innerHTML = '';
 
     scoreList.forEach((score) => {
         const newScore = document.createElement('li');
-        newScore.innerHTML = `<span>${score.name}:</span>${score.score}`;
+        newScore.innerHTML = `<span>${score.user}:</span>${score.score}`;
         scoresContainer.appendChild(newScore);
       });
 }
