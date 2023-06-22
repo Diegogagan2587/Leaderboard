@@ -4,7 +4,7 @@ function submitScore(event) {
   // 1 get the name and score
   const apiURL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores/`;
   const name = event.target.parentNode.querySelector('#your-name').value;
-  const score = event.target.parentNode.querySelector('#your-score').value;
+  const valueScore = event.target.parentNode.querySelector('#your-score').value;
 
   // 2 submit the info to the API
 
@@ -15,7 +15,7 @@ function submitScore(event) {
     },
     body: JSON.stringify({
       user: `${name}`,
-      score,
+      score: valueScore,
     }),
   })
     .then((response) => response.json());
