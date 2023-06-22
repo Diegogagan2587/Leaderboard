@@ -6,7 +6,9 @@ async function getScores(){
     console.log('runing getScores')
     const gameScores = await fetch (urlAPI)
     .then((response) => response.json())
-    console.log('gameScores',gameScores.result)
+    .then( (json) =>  json.result)
+    .then( (result) => display(result) )
+    console.log('gameScores',gameScores)
     return gameScores;
 }
 
