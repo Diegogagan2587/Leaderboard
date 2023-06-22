@@ -14,10 +14,7 @@ const scoresData = [
 const btnRefresh = document.querySelector('#button-refresh');
 const btnSubmit = document.querySelector('#button-submit');
 
-btnSubmit.addEventListener('click',submitScore);
-btnRefresh.addEventListener('click',getScores);
-
+btnSubmit.addEventListener('click', submitScore);
+btnRefresh.addEventListener('click', getScores);
 
 display(scoresData);
-
-
