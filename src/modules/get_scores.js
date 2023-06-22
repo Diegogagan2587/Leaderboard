@@ -10,6 +10,6 @@ const getScores = async () => {
     .then((result) => display(result));
 
   return gameScores;
-}
+};
 
 export default getScores;
