@@ -1,4 +1,6 @@
 import './style.css';
+import display from './modules/display.js';
+import  createNewGame  from './modules/create_new_game.js';
 
 const scoresData = [
   { name: 'name', score: 100 },
@@ -8,10 +10,7 @@ const scoresData = [
   { name: 'name', score: 4 },
 ];
 
-const scoresContainer = document.getElementById('scores-list');
+createNewGame();
+display(scoresData);
 
-scoresData.forEach((score) => {
-  const newScore = document.createElement('li');
-  newScore.innerHTML = `<span>${score.name}:</span>${score.score}`;
-  scoresContainer.appendChild(newScore);
-});
+
