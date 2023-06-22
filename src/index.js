@@ -1,6 +1,7 @@
 import './style.css';
 import display from './modules/display.js';
-import  createNewGame  from './modules/create_new_game.js';
+import submitScore from './modules/submit_score.js';
+
 
 const scoresData = [
   { name: 'name', score: 100 },
@@ -10,7 +11,11 @@ const scoresData = [
   { name: 'name', score: 4 },
 ];
 
-createNewGame();
+const btnRefresh = document.querySelector('#button-refresh');
+const btnSubmit = document.querySelector('#button-submit');
+
+btnSubmit.addEventListener('click',submitScore);
+
 display(scoresData);
 
 
