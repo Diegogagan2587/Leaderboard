@@ -3,7 +3,7 @@ import display from './display.js';
 
 const urlAPI = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores`;
 
-async function getScores() {
+const getScores = async () => {
   const gameScores = await fetch(urlAPI)
     .then((response) => response.json())
     .then((json) => json.result)
