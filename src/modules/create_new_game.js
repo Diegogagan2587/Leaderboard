@@ -25,4 +25,6 @@ async function createNewGame(){
   return gameID;
 }
 
-export default createNewGame;
+const testGameID = 'kW68PZGsF4CTjYa0TPRr';
+
+export { createNewGame, testGameID };
