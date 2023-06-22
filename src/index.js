@@ -4,11 +4,7 @@ import submitScore from './modules/submit_score.js';
 import getScores from './modules/get_scores.js';
 
 const scoresData = [
-  { user: 'Peter1', score: 100 },
-  { user: 'Peter1', score: 41 },
-  { user: 'Peter1', score: 25 },
-  { user: 'Peter1', score: 5 },
-  { user: 'Peter1', score: 8 },
+  { user: 'No Score Yet', score: 0 },
 ];
 
 const btnRefresh = document.querySelector('#button-refresh');
