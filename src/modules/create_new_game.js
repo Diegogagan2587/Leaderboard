@@ -1,4 +1,5 @@
-async function getGameID(object) {
+
+const getGameID = async (object) => {
   const arrFromObj = object.result.split(' ');
   const result = arrFromObj[3];
   return result;
