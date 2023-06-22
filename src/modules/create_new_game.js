@@ -5,7 +5,8 @@ const getGameID = async (object) => {
   return result;
 };
 
-async function createNewGame() {
+ 
+const createNewGame = async () => {
   const urlAPI = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
   // first call the API
   const newGame = await fetch(urlAPI, {
