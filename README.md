@@ -17,7 +17,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -74,16 +73,6 @@
 - **Refresh button**
 - **Submit button**
 - **Make use of async functions and await keyword**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Link to deployed version:
-
-- [We are still working on this feature...](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
