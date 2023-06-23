@@ -1,22 +1,61 @@
 
-ul {
-  list-style: none;
-  padding-left: 0;
+* {
+  background-color: inherit;
+
+  /* border: 1px solid yellow; */
+  box-sizing: border-box;
+  color: rgb(18, 87, 165);
+}
+
+button {
+  border: 1px solid #015d52;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: azure;
+  border: 0;
+  background-color: gray;
 }
 
 body {
   padding-left: 5vw;
   padding-right: 5vw;
+  background-color: gray;
+}
+
+header h1 {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #015d52;
+  background-color: azure;
+  border-radius: 5px;
+  padding: 3%;
+}
+
+ul {
+  list-style: none;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-score {
   display: flex;
+  max-width: 600px;
+  gap: 3%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .recent-scores {
   width: 50%;
   padding-left: 2%;
   padding-right: 2%;
+  border: 3px solid grey;
+  border: 3px solid #015d52;
+  background-color: azure;
 }
 
 .recent-scores-head {
@@ -25,10 +64,14 @@ body {
   justify-content: flex-start;
   gap: 10%;
   width: 100%;
+  margin-top: 3%;
+  background-color: inherit;
+  height: 10vw;
 }
 
 .recent-scores ul {
   border: 2px solid black;
+  min-height: 80px;
 }
 
 .add-score-container {
@@ -36,6 +79,15 @@ body {
   flex-direction: column;
   align-items: center;
   width: 50%;
+  border: 3px solid grey;
+  border: 3px solid #015d52;
+  background-color: azure;
+}
+
+.add-score-container h2 {
+  align-self: center;
+  margin-top: 3%;
+  height: 10vw;
 }
 
 .add-score-container form {
