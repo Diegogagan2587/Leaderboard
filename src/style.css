@@ -10,6 +10,7 @@
 button {
   border: 1px solid #015d52;
   border-radius: 5px;
+  width: fit-content;
 }
 
 button:hover {
@@ -97,4 +98,9 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.add-score-container form button {
+  margin-right: 0;
+  margin-left: auto;
 }
