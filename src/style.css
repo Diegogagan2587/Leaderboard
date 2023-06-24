@@ -66,11 +66,14 @@ ul {
   width: 100%;
   margin-top: 3%;
   background-color: inherit;
-  height: 10vw;
+}
+
+.recent-scores-head h2 {
+  margin: 0;
 }
 
 .recent-scores ul {
-  border: 2px solid black;
+  border: 2px solid #015d52;
   min-height: 80px;
 }
 
@@ -85,9 +88,9 @@ ul {
 }
 
 .add-score-container h2 {
-  align-self: center;
+  display: flex;
+  align-items: center;
   margin-top: 3%;
-  height: 10vw;
 }
 
 .add-score-container form {
