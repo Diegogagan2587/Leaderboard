@@ -78,6 +78,10 @@ ul {
   min-height: 80px;
 }
 
+.recent-scores ul li {
+  padding: 2%;
+}
+
 .add-score-container {
   display: flex;
   flex-direction: column;
