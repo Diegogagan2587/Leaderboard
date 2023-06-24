@@ -78,8 +78,17 @@ ul {
   min-height: 80px;
 }
 
+.recent-scores ul span {
+  color: inherit;
+}
+
 .recent-scores ul li {
   padding: 2%;
+}
+
+.recent-scores ul li:nth-child(odd) {
+  background-color: rgb(92, 121, 153);
+  color: azure;
 }
 
 .add-score-container {
